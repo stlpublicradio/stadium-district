@@ -1,0 +1,177 @@
+@import "values";
+
+//defensive coding
+* {
+  //border-box, you're the best
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+
+  //Safari, you're the worst
+  -webkit-tap-highlight-color: transparent;
+}
+
+//elements
+body {
+  padding: 0;
+  margin: 0;
+  //remove 300ms click delay in Safari, AKA still the worst
+  touch-action: manipulation;
+  font-family: @sans;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+h1 {
+  .gotham();
+  font-size: 20px;
+  color: #666;
+}
+
+a,
+a:visited {
+  color: @accent-dark;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: @accent-light;
+}
+
+img:not([alt]) {
+  outline: 3px solid red;
+}
+
+div.header {
+  height: 500px;
+}
+
+#scrolly {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+#scrolly>* {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+article {
+  position: relative;
+  padding: 0 1rem;
+  max-width: 20rem;
+}
+
+figure {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+}
+
+
+.step {
+  margin: 0 auto 2rem auto;
+  background-color: #3b3b3b;
+  color: #fff;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active {
+  background-color: goldenrod;
+  color: #3b3b3b;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+
+  .labels {
+    text {
+      font-size: .3em;
+      fill: #333;
+    }
+  }
+
+}
+
+.STL circle {
+  fill: #cc203b;
+  opacity: 1;
+}
+
+.Detroit circle {
+  fill: #00f;
+  opacity: 1;
+}
+
+.Philadelphia circle {
+  fill: #0f0;
+  opacity: 1
+}
+
+// scale 
+circle.dist {
+  fill: #fff;
+  stroke: #efefef
+}
+
+circle.maj {
+  fill: #efefef;
+}
+
+// map
+
+.map path {
+  fill: none;
+  stroke: #999;
+  stroke-width: .2;
+
+  &.highway {
+    stroke-width: 1.5;
+    stroke: #ccc;
+  }
+
+  &.ramp {
+    stroke: #ccc;
+  }
+
+  &.road-major {
+    stroke-width: .8;
+    stroke: #999;
+  }
+
+  &.river {
+    stroke: #55b7d9;
+    stroke-width: 24;
+  }
+}
+
+// explainer
+
+.explainer {}

@@ -1,0 +1,26 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "stlpr-stg",
+      "path": "stadium-district"
+    },
+    "live": {
+      "bucket": "apps.stlpublicradio.org",
+      "path": "stadium-district"
+    }
+  },
+  "styles": {
+    "src/css/seed.less": "build/style.css"
+  },
+  "scripts": {
+    "src/js/main.js": "build/app.js"
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "image": "assets/logo.png",
+  "sheets": [],
+  "docs": [],
+  "embedded": true,
+  "production": false
+}
