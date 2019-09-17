@@ -172,7 +172,7 @@ function handleStepEnter(response) {
     }
 
     if (response.index == 1) {
-        svg.select('.map').call(makeInvisible, 500, 0)
+        svg.select('.map').transition().delay(100).attr('opacity', .5)
 
 
         cur_city = svg.select('.STL').select('.measurement')
@@ -266,9 +266,37 @@ function drawMap() {
 
     var path = d3.geoPath().projection(projection)
 
-    d3.json('./assets/map.geojson').then(function (mapData) {
+    d3.json('./assets/roads-large.geojson').then(function (mapData) {
 
-        svg.select('.map')
+        svg.select('.map').append('g').attr('class', 'roads-large')
+            // .attr('transform', function () {
+            //     return 'translate(' + xScale.range()[1] / 2 + ',' + window.innerHeight / 2 + ')'
+            // })
+            .selectAll('path')
+            .data(mapData.features)
+            .enter().append('path')
+            .attr('d', path)
+            .attr('class', d => d.properties.type)
+
+    })
+
+    d3.json('./assets/roads-small.geojson').then(function (mapData) {
+
+        svg.select('.map').append('g').attr('class', 'roads-small')
+            // .attr('transform', function () {
+            //     return 'translate(' + xScale.range()[1] / 2 + ',' + window.innerHeight / 2 + ')'
+            // })
+            .selectAll('path')
+            .data(mapData.features)
+            .enter().append('path')
+            .attr('d', path)
+            .attr('class', d => d.properties.type)
+
+    })
+
+    d3.json('./assets/water.geojson').then(function (mapData) {
+
+        svg.select('.map').append('g').attr('class', 'water')
             // .attr('transform', function () {
             //     return 'translate(' + xScale.range()[1] / 2 + ',' + window.innerHeight / 2 + ')'
             // })
