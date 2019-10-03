@@ -206,6 +206,22 @@ function handleStepEnter(response) {
 
     if (response.index == 3) {
 
+        scale = 4
+
+        d3.select('.container').transition().duration(2000).attr('transform', 'translate(' + (1 - scale) * 450 + ',' + (1 - scale) * 450 + ') scale(' + scale + ')')
+
+        hideOldCity("Philadelphia")
+        revealNewCity("Detroit")
+    }
+
+    if (response.index == 4) {
+
+        hideOldCity("Detroit")
+        revealNewCity("Houston")
+    }
+
+    if (response.index == 8) {
+
         console.log(d3.zoomIdentity)
         scale = 1
 
@@ -629,7 +645,7 @@ function init() {
     scroller.setup({
             step: '#scrolly article .step',
             offset: 0.33,
-            debug: true,
+            debug: false,
         })
         .onStepEnter(handleStepEnter)
     // setup resize event

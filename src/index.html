@@ -7,13 +7,13 @@
 </head>
 
 <body>
+  <div id="intro">
+    <% grunt.data.archieml.Stadiums_text.hed.forEach(p => {  %>
+    <p><%= t.renderMarkdown(p.value) %></p>
+    <% }) %>
+  </div>
   <main>
     <div class="header">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
     </div>
     <section id='scrolly'>
 
@@ -53,6 +53,42 @@
 
     <section id='outro'></section>
   </main>
+
+  <div id="main">
+    <% console.log(grunt.data.archieml.Stadiums_text.main)
+      grunt.data.archieml.Stadiums_text.main.forEach(section => { %>
+
+    <h2><%= section.hed %></h2>
+
+    <% section.cities.forEach(city => { %>
+
+    <div class="city">
+      <img src="assets/images/<%= city.slug %>.jpg" alt="<%= city.name %> apart">
+      <p class="credit"><%= city.image_credit %></p>
+      <h3><%= city.name %></h3>
+
+      <p><%= grunt.data.archieml.Stadiums_text.closest_stadiums_text %></p>
+      <ul class="stadiums">
+        <% city.stadiums.forEach(stadium => { %>
+        <li><%= stadium.value %></li>
+        <% }) %>
+      </ul>
+
+      <p class="description">
+        <%= city.text %>
+      </p>
+      <% if (city.close) { %>
+      <h4><%= grunt.data.archieml.Stadiums_text.close_question %></h4>
+      <p class="how_close">
+        <%= city.close %>
+      </p>
+      <% } %>
+    </div>
+
+    <% }) %>
+
+    <% }) %>
+  </div>
 
   <script src="app.js" async></script>
   </main>
