@@ -1,5 +1,7 @@
 @import "values";
 
+@import url(//fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900&display=swap|Merriweather:400,400italic,700italic,700&display=swap);
+
 //defensive coding
 * {
   //border-box, you're the best
@@ -14,11 +16,11 @@
 
 //elements
 body {
+  .merriweather();
   padding: 0;
   margin: 0;
   //remove 300ms click delay in Safari, AKA still the worst
   touch-action: manipulation;
-  font-family: @sans;
   font-size: 14px;
   line-height: 1.4;
 }
@@ -28,11 +30,83 @@ svg {
   max-width: 100%;
 }
 
-h1 {
-  .gotham();
-  font-size: 20px;
-  color: #666;
+
+#headlines {
+  text-align: center;
+  margin: 0 10% 5em 10%;
+
+  #headline {
+    .titillium-header();
+    font-weight: 900;
+    
+    font-size: 7em;
+    color: #333;
+    margin: .1em 0;
+  }
+
+  h2#subhed {
+    .titillium();
+    font-weight: 700;
+    font-size: 2em;
+    color: #666;
+    margin: 0 0 1em 0;
+  }
+
+  p {
+    .titillium-upper();
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0;
+
+  }
 }
+
+#intro {
+  margin: 0 10%;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  text-align: justify;
+  letter-spacing: -.02em;
+}
+
+#main {
+  .g-aiPointText p, .g-Layer_3 p {
+    color: #333;
+    text-shadow: 0 0 5px #fff;
+    font-weight: 600;
+  }
+
+  .credit {
+    .titillium();
+    text-align: right;
+    margin: 0 10px 0 0;
+  }
+
+  .city-text {
+    .merriweather();
+    margin: 0 10% 5em 10%;
+    font-size: 1.4em;
+  line-height: 1.4em;
+  text-align: justify;
+  letter-spacing: -.02em;
+    h3 {
+      .titillium-header();
+      font-size: 2em;
+      font-weight: 600;
+      color: #333;
+    }
+}
+
+  .section-hed {
+    .titillium-header();
+    font-size: 3em;
+    text-align: center;
+    font-weight: 900;
+    color: #333;
+  }
+
+}
+
 
 a,
 a:visited {
@@ -50,7 +124,7 @@ img:not([alt]) {
 }
 
 div.header {
-  height: 500px;
+  
 }
 
 #scrolly {
@@ -171,6 +245,29 @@ circle.maj {
 
 .explainer {}
 
-main {
-  display: none;
+// main {
+//   display: none;
+// }
+
+// AI2HTML Helper
+
+@media screen and (min-width: 730px) {
+  .artboard-small,
+.artboard-medium {
+    display: none;
+  }
 }
+@media screen and (max-width: 729px) and (min-width: 400px) {
+  .artboard-small,
+.artboard-wide {
+    display: none;
+  }
+}
+@media screen and (max-width: 399px) {
+  .artboard-medium,
+.artboard-wide {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=graphic.css.map */

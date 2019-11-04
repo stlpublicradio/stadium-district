@@ -8,32 +8,31 @@
 /*
  * Fonts
  */
-@gotham: 'Gotham SSm', Helvetica, Arial, sans-serif;
-@knockout: 'Knockout 31 4r','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+@merriweather: 'Merriweather', "Times New Roman", Times, serif;
+@titillium: 'Titillium Web','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 @sans: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 @serif: Georgia, "Times New Roman", Times, serif;
 
-.gotham() {
-    font-family: @gotham;
+.merriweather() {
+    font-family: @merriweather;
     font-weight: normal;
     font-weight: 400;
 }
 
-// Normal Knockout
-.knockout() {
-    font-family: @knockout;
-    font-weight: normal;
+// Normal titillium
+.titillium() {
+    font-family: @titillium;
 }
 
-// Knockout, uppercased
-.knockout-upper() {
-    .knockout();
+// titillium, uppercased
+.titillium-upper() {
+    .titillium();
     text-transform: uppercase;
 }
 
-// Knockout for headings
-.knockout-header() {
-    .knockout-upper();
+// titillium for headings
+.titillium-header() {
+    .titillium();
     letter-spacing: 0.05em;
     -webkit-font-smoothing: antialiased;
 }
