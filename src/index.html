@@ -7,14 +7,19 @@
 </head>
 
 <body>
-  <div id="intro">
-    <% grunt.data.archieml.Stadiums_text.hed.forEach(p => {  %>
-    <p><%= t.renderMarkdown(p.value) %></p>
-    <% }) %>
-  </div>
-  <main>
+    <main>
     <div class="header">
-    </div>
+        <div id="headlines">
+            <h1 id="headline"><%= grunt.data.archieml.Stadiums_text.headline %></h1>
+            <h2 id="subhed"><%= grunt.data.archieml.Stadiums_text.subhed %></h1>
+              <p id="byline"><%= grunt.data.archieml.Stadiums_text.byline %></p>
+              <p id="pubdate"><%= grunt.data.archieml.Stadiums_text.pubdate %></p>
+            </div>
+            <div id="intro">
+              <% grunt.data.archieml.Stadiums_text.hed.forEach(p => {  %>
+              <p><%= t.renderMarkdown(p.value) %></p>
+              <% }) %>
+            </div>  </div>
     <section id='scrolly'>
 
       <article>
@@ -55,17 +60,23 @@
   </main>
 
   <div id="main">
-    <% console.log(grunt.data.archieml.Stadiums_text.main)
+    <% console.log(grunt.data.archieml.Stadiums_text)
       grunt.data.archieml.Stadiums_text.main.forEach(section => { %>
 
-    <h2><%= section.hed %></h2>
+    <h2 class="section-hed"><%= section.hed %></h2>
+
+
 
     <% section.cities.forEach(city => { %>
 
+
+
     <div class="city">
-      <img src="assets/images/<%= city.slug %>.jpg" alt="<%= city.name %> apart">
+        <%= t.include("partials/_" + city.slug + ".html") %>
+
       <p class="credit"><%= city.image_credit %></p>
-      <h3><%= city.name %></h3>
+      
+      <div class="city-text"><h3><%= city.name %></h3>
 
       <p><%= grunt.data.archieml.Stadiums_text.closest_stadiums_text %></p>
       <ul class="stadiums">
@@ -84,6 +95,7 @@
       </p>
       <% } %>
     </div>
+  </div>
 
     <% }) %>
 
