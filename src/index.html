@@ -3,7 +3,12 @@
 
 <head>
   <%= t.include("partials/_head.html", grunt.data.json) %>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -21,7 +26,10 @@
               <% }) %>
             </div>  </div>
     <section id='scrolly'>
-
+        <figure>
+            <div id="map"></div>
+          </figure>
+    
       <article>
         <div class='step' data-step='1'>
           <p>These are St. Louis' stadiums. From left, the new MLS stadium, Enterprise Center and Busch Stadium.</p>
@@ -52,8 +60,6 @@
         </div>
       </article>
 
-      <figure>
-      </figure>
     </section>
 
     <section id='outro'></section>

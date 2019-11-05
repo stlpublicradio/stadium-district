@@ -1,4 +1,6 @@
 @import "values";
+@import "scrollama";
+@import "map";
 
 @import url(//fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900&display=swap|Merriweather:400,400italic,700italic,700&display=swap);
 
@@ -127,119 +129,17 @@ div.header {
   
 }
 
-#scrolly {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #fff;
-  padding: 1rem;
-}
-
-#scrolly>* {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-article {
-  position: relative;
-  padding: 0 1rem;
-  max-width: 20rem;
-}
-
-figure {
-  position: -webkit-sticky;
-  position: sticky;
-  width: 100%;
-  margin: 0;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-
-}
-
-
 .step {
-  margin: 0 auto 2rem auto;
-  background-color: #3b3b3b;
-  color: #fff;
+
+  background-color: rgba(0,0,0,0)
+
+ p {
+  font-size: 1em;
 }
-
-.step:last-child {
-  margin-bottom: 0;
-}
-
-.step.is-active {
-  background-color: goldenrod;
-  color: #3b3b3b;
-}
-
-.step p {
-  text-align: center;
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-
-svg {
-  height: 100%;
-  width: 100%;
-
-  .labels {
-    text {
-      font-size: .3em;
-      fill: #333;
-    }
-  }
 
 }
 
-.STL circle {
-  fill: #cc203b;
-  opacity: 1;
-}
 
-.Detroit circle {
-  fill: #00f;
-  opacity: 1;
-}
-
-.Philadelphia circle {
-  fill: #0f0;
-  opacity: 1
-}
-
-// scale 
-circle.dist {
-  fill: #fff;
-  stroke: #efefef
-}
-
-circle.maj {
-  fill: #efefef;
-}
-
-// map
-
-.map {
-
-  path {
-    fill: none;
-    stroke: #ccc;
-    stroke-width: .2;
-  }
-
-  g.water path {
-    fill: #55b7d9;
-    stroke: none;
-  }
-
-  g.roads-large path {
-    stroke-width: .5;
-    stroke: #ccc;
-  }
-
-}
 
 // explainer
 
