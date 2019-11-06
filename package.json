@@ -33,7 +33,9 @@
     "scrollama": "^2.1.0",
     "shelljs": "^0.8.3",
     "through2": "^3.0.1",
-    "typogr": "^0.6.4"
+    "typogr": "^0.6.4",
+    "waypoints": "^4.0.1",
+    "yt-player": "^3.4.3"
   },
   "browser": {
     "share": "./src/js/lib/share.min.js",

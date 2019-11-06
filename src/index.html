@@ -13,6 +13,9 @@
 
 <body>
     <main>
+      <div class="videoWrapper">
+      <div id="youtube"></div>
+      </div>
     <div class="header">
         <div id="headlines">
             <h1 id="headline"><%= grunt.data.archieml.Stadiums_text.headline %></h1>
@@ -31,42 +34,24 @@
           </figure>
     
       <article>
-        <div class='step' data-step='1'>
-          <p>These are St. Louis' stadiums. From left, the new MLS stadium, Enterprise Center and Busch Stadium.</p>
+          <% 
+          grunt.data.archieml.Stadiums_text.graphic_steps.forEach(section => { %>
+        <div class='step' data-step='<%= section.step %>'>
+          <p><%= section.text %></p>
         </div>
-        <div class='step' data-step='2'>
-          <p>If you draw the smallest circle possible to fit all three inside, then measure the diameter of that circle, you get X.XX miles. In this case, that's the distance between Busch Stadium and the new MLS stadium.</p>
-        </div>
-        <div class='step' data-step='3'>
-          <p>The closest set of three stadiums we found were in Philadelphia, where three stadiums hosting four teams were less than a half-mile apart.</p>
-        </div>
-        <div class='step' data-step='4'>
-          <p>STEP 4</p>
-        </div>
-        <div class='step' data-step='5'>
-          <p>STEP 5</p>
-        </div>
-        <div class='step' data-step='6'>
-          <p>STEP 6</p>
-        </div>
-        <div class='step' data-step='7'>
-          <p>STEP 7</p>
-        </div>
-        <div class='step' data-step='8'>
-          <p>STEP 8</p>
-        </div>
-        <div class='step' data-step='9'>
-          <p>STEP 9</p>
-        </div>
+        <% }) %>
+        
+        
       </article>
 
     </section>
 
-    <section id='outro'></section>
+    <section id='outro'><p id="barchart" data-pym-src="http://apps.stlpublicradio.org/dailygraphics/graphics/2019-11-06-stadium-proximity/child.html">Loading...</p><script src="https://pym.nprapps.org/npr-pym-loader.v2.min.js" type="text/javascript"></script>
+    </section>
   </main>
 
   <div id="main">
-    <% console.log(grunt.data.archieml.Stadiums_text)
+    <% 
       grunt.data.archieml.Stadiums_text.main.forEach(section => { %>
 
     <h2 class="section-hed"><%= section.hed %></h2>
@@ -107,6 +92,13 @@
 
     <% }) %>
   </div>
+
+  <div class="credits">
+      <% grunt.data.archieml.Stadiums_text.credits.forEach(section => { %>
+        <p><%= section.title %> &mdash; <%= section.name %></p>
+        <% }) %>
+  </div>
+
 
   <script src="app.js" async></script>
   </main>

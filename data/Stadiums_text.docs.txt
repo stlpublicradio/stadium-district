@@ -14,6 +14,21 @@ title: Copyediting
 name: MacK Korris
 []
 
+[graphic_steps]
+step: 1
+text: These are St. Louis' stadiums. From left, the new MLS stadium, Enterprise Center and Busch Stadium.
+
+step: 2
+text: If you draw the smallest circle possible to fit all three inside, then measure the diameter of that circle, you get 1.13 miles. In this case, that's the distance between Busch Stadium and the new MLS stadium.
+
+step: 3
+text: The closest set of three stadiums we found were in Philadelphia, where three stadiums hosting four teams were less than a half-mile apart.
+
+step: 4
+text: Kansas City was second-to-last on the list, with three stadiums XX.XX miles apart.
+
+
+
 [+hed]
 St. Louis’ new Major League Soccer stadium is planned for land just northwest of Union Station, across Market Street. When it’s complete in 2022, St. Louis will have three major league stadiums[a] — Busch Stadium, Enterprise Center, and the MLS stadium — all in a row, within about a mile of each other. 
 

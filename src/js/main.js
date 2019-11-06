@@ -1,4 +1,4 @@
-// require("./lib/pym");
+require("./lib/pym");
 
 // using d3 for convenience
 var map;
@@ -33,33 +33,112 @@ function handleStepEnter(response) {
     // update graphic based on step
     figure.select('p').text(response.index + 1);
 
+    if (response.index == 0) {
+        map.flyTo({
+            zoom: 14, // starting zoom
+            bearing: 90,
+            pitch: 60,
+            speed: 0.4,
+            curve: 1,
+            easing: function (t) {
+                return t;
+            }
+        })
+        setTimeout(function () {
+        map.setPaintProperty('stl', 'circle-radius', 10);
+        map.setPaintProperty('stl-measurement', 'line-opacity', 0);
+        map.setPaintProperty('stl', 'circle-opacity', 1);
+        
+        map.setPaintProperty('phi', 'circle-radius', 10);
+        map.setPaintProperty('phi', 'circle-opacity', 0);
+        map.setPaintProperty('phi-measurement', 'line-opacity', 0);
+
+        map.setPaintProperty('kc', 'circle-radius', 10);
+        map.setPaintProperty('kc', 'circle-opacity', 0);
+        map.setPaintProperty('kc-measurement', 'line-opacity', 0);
+    }, 1000);
+
+    }
+    
     if (response.index == 1) {
-        console.log(map)
         map.flyTo({
             bearing: 0,
             zoom: 13,
             pitch: 0,
             speed: 0.4,
             curve: 1,
-            easing: function(t) { return t;}
-        })
-        var circle = turf.circle([-90.2019815, 38.6268055],.9127259383682821);
-        map.addLayer({
-            "id": "stl-measurement",
-            "type": "line",
-            "source": {
-                "type": "geojson",
-                "data": {
-                    "type": "FeatureCollection",
-                    "features": [circle]
-                }
-            },
-            "paint": {
-                "line-opacity": .5,
-            "line-width": 3,
-            "line-dasharray": [3,2]
+            easing: function (t) {
+                return t;
             }
-        }, 'stl');
+        })
+
+        setTimeout(function () {
+            map.setPaintProperty('stl', 'circle-radius', 10);
+            map.setPaintProperty('stl-measurement', 'line-opacity', .8);
+            map.setPaintProperty('stl', 'circle-opacity', 1);
+            
+            map.setPaintProperty('phi', 'circle-radius', 10);
+            map.setPaintProperty('phi', 'circle-opacity', 0);
+            map.setPaintProperty('phi-measurement', 'line-opacity', 0);
+    
+            map.setPaintProperty('kc', 'circle-radius', 10);
+            map.setPaintProperty('kc', 'circle-opacity', 0);
+            map.setPaintProperty('kc-measurement', 'line-opacity', 0);        }, 1000);
+
+    }
+
+    if (response.index == 2) {
+
+        map.flyTo({
+            bearing: 0,
+            zoom: 15,
+            pitch: 0,
+            speed: 0.4,
+            curve: 1,
+            easing: function (t) {
+                return t;
+            }
+        })
+
+        setTimeout(function () {
+                        
+            map.setPaintProperty('stl', 'circle-radius', 10);
+            map.setPaintProperty('stl-measurement', 'line-opacity', 0);
+            map.setPaintProperty('stl', 'circle-opacity', .7);
+            
+            map.setPaintProperty('phi', 'circle-radius', 10);
+            map.setPaintProperty('phi', 'circle-opacity', 1);
+            map.setPaintProperty('phi-measurement', 'line-opacity', .8);
+            
+            map.setPaintProperty('kc-measurement', 'line-opacity', 0);
+            map.setPaintProperty('kc', 'circle-opacity', 0);
+            
+            
+
+        }, 1000)
+    }
+
+    if (response.index == 3) {
+        map.flyTo({
+            bearing: 0,
+            zoom: 10,
+            pitch: 0,
+            speed: 0.6,
+            curve: 1,
+            easing: function (t) {
+                return t;
+            }
+        })
+
+        setTimeout(function () {
+            map.setPaintProperty('phi-measurement', 'line-opacity', 0);
+            map.setPaintProperty('kc', 'circle-opacity', 1);
+            map.setPaintProperty('kc-measurement', 'line-opacity', .8);
+            map.setPaintProperty('phi', 'circle-radius', 4);
+            map.setPaintProperty('stl', 'circle-radius', 4);
+            map.setPaintProperty('phi', 'circle-opacity', 1);
+            map.setPaintProperty('stl', 'circle-opacity', 1);
+        }, 1000)
     }
 }
 
@@ -73,7 +152,7 @@ function setupStickyfill() {
 
 
 
-    function createMap() {
+function createMap() {
     // create map
     mapboxgl.accessToken = 'pk.eyJ1Ijoic3RscHIiLCJhIjoicHNFVGhjUSJ9.WZtzslO6NLYL8Is7S-fdxg';
     map = new mapboxgl.Map({
@@ -84,7 +163,7 @@ function setupStickyfill() {
         bearing: 90,
         pitch: 60,
         interactive: false
-    });    
+    });
 
     // map.on('load', function() {
     //     // Insert the layer beneath any symbol layer.
@@ -127,7 +206,7 @@ function setupStickyfill() {
 
     map.on('load', function () {
 
-        
+
         map.addLayer({
             "id": "stl",
             "type": "circle",
@@ -144,20 +223,20 @@ function setupStickyfill() {
                         "properties": {
                             "title": "Busch Stadium",
                         }
-                    },{
+                    }, {
                         "type": "Feature",
                         "geometry": {
                             "type": "Point",
-                            "coordinates": [-90.2025,38.626667]
+                            "coordinates": [-90.2025, 38.626667]
                         },
                         "properties": {
                             "title": "Enterprise Center",
                         }
-                    },{
+                    }, {
                         "type": "Feature",
                         "geometry": {
                             "type": "Point",
-                            "coordinates": [-90.210907,38.631111]
+                            "coordinates": [-90.210907, 38.631111]
                         },
                         "properties": {
                             "title": "MLS Stadium (planned)",
@@ -170,6 +249,182 @@ function setupStickyfill() {
                 "circle-color": '#cc203b'
             }
         })
+        circle_center = [-90.2019815, 38.6268055];
+        var stl_circle = turf.circle(circle_center, .9127259383682821);
+        map.addLayer({
+            "id": "stl-measurement",
+            "type": "line",
+            "source": {
+                "type": "geojson",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [stl_circle, {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [-90.210907, 38.631111],
+                                [-90.193056, 38.6225]
+                            ]
+                        }
+                    }]
+                }
+            },
+            "paint": {
+                "line-opacity": 0,
+                "line-width": 3,
+                "line-dasharray": [3, 2]
+            }
+        }, 'stl');
+
+        map.addLayer({
+            "id": "phi",
+            "type": "circle",
+            "source": {
+                "type": "geojson",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [{
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-90.20045354498988,38.62412768492097]
+                        },
+                        "properties": {
+                            "title": "Lincoln Financial Field",
+                        }
+                    }, {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-90.2048011735628,38.624515978971736]
+                        },
+                        "properties": {
+                            "title": "Wells Fargo Center",
+                        }
+                    }, {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-90.19915744935304,38.62909481582355]
+                        },
+                        "properties": {
+                            "title": "Citizens Bank Park",
+                        }
+                    }, ]
+                }
+            },
+            'paint': {
+                "circle-radius": 10,
+                "circle-color": '#31716e',
+                "circle-opacity": 0
+            }
+        })
+
+        var phi_circle = turf.circle(circle_center, .35362);
+        map.addLayer({
+            "id": "phi-measurement",
+            "type": "line",
+            "source": {
+                "type": "geojson",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [phi_circle, {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [-90.2048011735628,38.624515978971736],
+                                [-90.19915744935304,38.62909481582355]
+                            ]
+                        }
+                    }]
+                }
+            },
+            "paint": {
+                "line-opacity": 0,
+                "line-width": 3,
+                "line-dasharray": [3, 2]
+            }
+        }, 'phi');
+
+        map.addLayer({
+            "id": "kc",
+            "type": "circle",
+            "source": {
+                "type": "geojson",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [{
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-90.0375391791927,38.582664531194844]
+                        },
+                        "properties": {
+                            "title": "Arrowhead Stadium",
+                        }
+                    }, {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-90.03407886015619,38.585034079760405]
+                        },
+                        "properties": {
+                            "title": "Kauffman Stadium",
+                        }
+                    }, {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-90.37008784281909,38.668342252633735]
+                        },
+                        "properties": {
+                            "title": "Children's Mercy Park",
+                        }
+                    }, ]
+                }
+            },
+            'paint': {
+                "circle-radius": 10,
+                "circle-color": '#006c8e',
+                "circle-opacity": 0
+            }
+        })
+
+        var kc_circle = turf.circle(circle_center, 15.348);
+        map.addLayer({
+            "id": "kc-measurement",
+            "type": "line",
+            "source": {
+                "type": "geojson",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [kc_circle, {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [-90.03407886015619,38.585034079760405],
+                                [-90.37008784281909,38.668342252633735]
+                            ]
+                        }
+                    }]
+                }
+            },
+            "paint": {
+                "line-opacity": 0,
+                "line-width": 3,
+                "line-dasharray": [3, 2]
+            }
+        }, 'kc');
+
+
+
+
+
+        
+
     });
 
     // var requestURL = 'assets/data.json'
@@ -201,13 +456,25 @@ function init() {
     scroller.setup({
             step: '#scrolly article .step',
             offset: 0.85,
-            debug: true,
+            debug: false,
         })
         .onStepEnter(handleStepEnter)
     // setup resize event
     window.addEventListener('resize', handleResize);
 
     createMap();
+
+    const YTPlayer = require('yt-player')
+
+    console.log(window.innerWidth)
+    const player = new YTPlayer('#youtube', {'width': window.innerWidth, 'height': window.innerHeight/3, 'autoplay':true })
+     
+    player.load('gDcKT0X_uUo')
+    player.setVolume(0)
+    player.play()
+    player.on('ended', () => {player.play()})
+
+              
 }
 // kick things off
 init();
