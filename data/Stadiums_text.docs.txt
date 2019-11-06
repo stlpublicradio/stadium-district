@@ -25,7 +25,7 @@ step: 3
 text: The closest set of three stadiums we found were in Philadelphia, where three stadiums hosting four teams were less than a half-mile apart.
 
 step: 4
-text: Kansas City was second-to-last on the list, with three stadiums XX.XX miles apart.
+text: Kansas City was second-to-last on the list, with three stadiums more than 19 miles apart.
 
 
 

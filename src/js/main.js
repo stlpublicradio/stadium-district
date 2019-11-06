@@ -1,5 +1,6 @@
 require("./lib/pym");
 
+
 // using d3 for convenience
 var map;
 var main = d3.select('main')
@@ -8,7 +9,7 @@ var figure = scrolly.select('figure');
 var article = scrolly.select('article');
 var step = article.selectAll('.step');
 // initialize the scrollama
-var scroller = scrollama();
+// var scroller = scrollama();
 // generic window resize listener event
 function handleResize() {
     // 1. update height of step elements
@@ -20,20 +21,44 @@ function handleResize() {
         .style('height', figureHeight + 'px')
         .style('top', figureMarginTop + 'px');
     // 3. tell scrollama to update new element dimensions
-    scroller.resize();
+    // scroller.resize();
 }
+
+steps = step.nodes();
+
+function callback (entries, observer) {
+    console.log('entries:', entries);
+    console.log('observer:', observer);
+}
+
+const observer = new IntersectionObserver((entries, observer) => {
+
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            handleStepEnter(entry.target.getAttribute('data-step'))
+        }
+    })
+
+});
+
+Array.prototype.forEach.call(steps, (el) => {
+    observer.observe(el);
+})
+
+
+
+
 // scrollama event handlers
 function handleStepEnter(response) {
-    console.log(response)
     // response = { element, direction, index }
     // add color to current step only
     step.classed('is-active', function (d, i) {
-        return i === response.index;
+        return i === response;
     })
     // update graphic based on step
-    figure.select('p').text(response.index + 1);
+    figure.select('p').text(response + 1);
 
-    if (response.index == 0) {
+    if (response == 1) {
         map.flyTo({
             zoom: 14, // starting zoom
             bearing: 90,
@@ -60,7 +85,7 @@ function handleStepEnter(response) {
 
     }
     
-    if (response.index == 1) {
+    if (response == 2) {
         map.flyTo({
             bearing: 0,
             zoom: 13,
@@ -87,7 +112,7 @@ function handleStepEnter(response) {
 
     }
 
-    if (response.index == 2) {
+    if (response == 3) {
 
         map.flyTo({
             bearing: 0,
@@ -118,7 +143,7 @@ function handleStepEnter(response) {
         }, 1000)
     }
 
-    if (response.index == 3) {
+    if (response == 4) {
         map.flyTo({
             bearing: 0,
             zoom: 10,
@@ -453,12 +478,12 @@ function init() {
     // 2. setup the scroller passing options
     // 		this will also initialize trigger observations
     // 3. bind scrollama event handlers (this can be chained like below)
-    scroller.setup({
-            step: '#scrolly article .step',
-            offset: 0.85,
-            debug: false,
-        })
-        .onStepEnter(handleStepEnter)
+    // scroller.setup({
+    //         step: '#scrolly article .step',
+    //         offset: 0.85,
+    //         debug: false,
+    //     })
+    //     .onStepEnter(handleStepEnter)
     // setup resize event
     window.addEventListener('resize', handleResize);
 
