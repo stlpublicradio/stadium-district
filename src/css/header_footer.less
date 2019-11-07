@@ -1,0 +1,166 @@
+/* HEADER STYLES */
+@stlpr-red: #c62036;
+
+#stlpr-header,
+#stlpr-footer {
+	font-family: 'Titillium Web';
+}
+
+#stlpr-header {
+
+	.redbar {	
+		background-color: @stlpr-red;
+		height: 32px;
+		font-size: 14px;
+		text-decoration: none;
+		text-align: left;
+		padding-top: 3px;
+		font-weight: 700;
+
+		.barcontent {	
+			margin: auto;
+			width: 100%;
+		}
+
+		a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    ul {
+      margin: 0 0 0 12px;
+    }
+		
+		ul li {
+				display: inline;
+				list-style: none;
+				background-repeat: no-repeat;
+			}
+			
+			li#small-logo {
+				width:100px;
+								
+				img {
+					width:100px;
+					height: auto;
+					position:relative;
+          top: -3px;
+          
+          vertical-align: middle;
+          border: 0;
+					
+				}
+			}
+
+		#small-logo, #listen {
+			margin-right: 4px;
+			padding-right: 5px;
+			border-right: 2px ridge #999;
+		}
+	}
+
+	#midheader {
+		clear: both;
+		height: 129px; 
+		background-color: #FFF;
+		margin:auto;
+		
+		.barcontent {	
+			margin: auto;
+			width: 80%;
+		}
+	
+		img {
+			margin-top: 15px;
+		}
+		
+		#headerlogo {
+			padding-top: 17px;
+		}
+		
+		#headerbox {
+			float:right;
+		}
+	}
+}
+
+
+/* FOOTER SECTION */
+
+/* Our footer is used across our entire site
+   including our black-white and accountedfor projects
+*/
+
+#stlpr-footer {
+	font-family: 'Lato', sans-serif;
+	color: #999;
+	width: 100%;
+	background-color: #444750;
+	clear: both;
+  }
+  
+  #stlpr-footer ul {
+	padding: 0;
+	list-style-type: none;
+  }
+  
+  #stlpr-footer #footernav {
+	text-align: center;
+  }
+  
+  #stlpr-footer #footernav ul li{
+	font-size: 0.9em;
+	display: inline-block;
+	float: left;
+	width: 20%;
+	padding: 10px 0px 10px 0px;
+	transition: ease 0.5s;
+  }
+  
+  
+  #stlpr-footer #footernav ul li:hover {
+	background-color: #e4363c;
+  } 
+  
+  #stlpr-footer a {
+	color: #ffffff;
+	display: block;
+	font-weight: 400;
+	text-decoration: none;
+  }
+  
+  #stlpr-footer #umsl {
+	padding: 10px;
+	text-align: center;
+	font-size: 0.9em;
+	transition: ease 0.5s;
+	color: #999999;
+	border-right: 1px solid #999;
+  }
+  
+  #stlpr-footer #umsl:hover {
+	color: #ffffff;
+	background-color:#e4363c;
+  }
+  
+  #stlpr-footer #legal {
+  margin-top: 15px;
+  
+  p {
+    margin-bottom: 0px;
+  }
+  }
+  
+  @media (max-width: 767px) {
+	#stlpr-footer #footernav ul li{          
+	  float: none;
+	  width: 100%;
+	}
+  }
+  
+  @media (max-width: 992px) {
+	#stlpr-footer #umsl {
+	  border: none;
+	}
+  }
+
