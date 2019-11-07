@@ -58,7 +58,10 @@ function handleStepEnter(response) {
     // update graphic based on step
     figure.select('p').text(response + 1);
 
+    fly_duration = 1500;
+
     if (response == 1) {
+
         map.flyTo({
             zoom: 14, // starting zoom
             bearing: 90,
@@ -86,16 +89,24 @@ function handleStepEnter(response) {
     }
     
     if (response == 2) {
-        map.flyTo({
-            bearing: 0,
-            zoom: 13,
-            pitch: 0,
-            speed: 0.4,
-            curve: 1,
-            easing: function (t) {
-                return t;
-            }
-        })
+        // map.flyTo({
+        //     bearing: 0,
+        //     zoom: 13,
+        //     pitch: 0,
+        //     speed: 0.4,
+        //     curve: 1,
+        //     easing: function (t) {
+        //         return t;
+        //     }
+        // })
+
+        circle_center = [-90.2019815, 38.6268055];
+        var stl_circle = turf.circle(circle_center, .9127259383682821);
+        
+
+        
+
+        map.fitBounds(turf.bbox(stl_circle), {padding: 20, duration: fly_duration});
 
         setTimeout(function () {
             map.setPaintProperty('stl', 'circle-radius', 10);
@@ -114,16 +125,19 @@ function handleStepEnter(response) {
 
     if (response == 3) {
 
-        map.flyTo({
-            bearing: 0,
-            zoom: 15,
-            pitch: 0,
-            speed: 0.4,
-            curve: 1,
-            easing: function (t) {
-                return t;
-            }
-        })
+        var phi_circle = turf.circle(circle_center, .35362);
+
+        map.fitBounds(turf.bbox(phi_circle), {padding: 20, duration: fly_duration});
+
+        // map.flyTo({
+        //     bearing: 0,
+        //     pitch: 0,
+        //     speed: 0.4,
+        //     curve: 1,
+        //     easing: function (t) {
+        //         return t;
+        //     }
+        // })
 
         setTimeout(function () {
                         
@@ -144,16 +158,20 @@ function handleStepEnter(response) {
     }
 
     if (response == 4) {
-        map.flyTo({
-            bearing: 0,
-            zoom: 10,
-            pitch: 0,
-            speed: 0.6,
-            curve: 1,
-            easing: function (t) {
-                return t;
-            }
-        })
+
+        var kc_circle = turf.circle(circle_center, 15.348);
+
+        map.fitBounds(turf.bbox(kc_circle), {padding: 20, duration: fly_duration});
+
+        // map.flyTo({
+        //     bearing: 0,
+        //     pitch: 0,
+        //     speed: 0.6,
+        //     curve: 1,
+        //     easing: function (t) {
+        //         return t;
+        //     }
+        // })
 
         setTimeout(function () {
             map.setPaintProperty('phi-measurement', 'line-opacity', 0);
