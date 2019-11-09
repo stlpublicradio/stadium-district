@@ -45,12 +45,12 @@ svg {
     margin: .1em 0;
   }
 
-  h2#subhed {
+  h2.subhed {
     .titillium();
     font-weight: 700;
     font-size: 1.5rem;
     color: #666;
-    margin: 0 0 1em 0;
+    margin: 0 0 .5em 0;
   }
 
   p {
@@ -75,7 +75,7 @@ svg {
 }
 
 #main {
-  .g-aiPointText p, .g-Layer_3 p {
+  .g-aiPointText p, .g-Layer_3 p, .g-Layer_3_copy p, .g-Layer_3_copy_2 p {
     color: #333;
     text-shadow: 0 0 5px #fff;
     font-weight: 600;
@@ -87,19 +87,25 @@ svg {
     margin: 0 10px 0 0;
   }
 
+  
+  h3.city-name {
+    .titillium-header();
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+  }
   .city-text {
     .merriweather();
-    margin: 0 30% 5em 30%;
+    margin: 0 30% 2.5em 30%;
+    padding: 0 0 2.5em 0;
     font-size: 1rem;
   line-height: 1.4em;
   text-align: left;
   letter-spacing: -.02em;
-    h3 {
-      .titillium-header();
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: #333;
-    }
+  border-bottom: 1px solid #aaa;
+    
 }
 
   .section-hed {
@@ -221,7 +227,7 @@ div.header {
   }
 
   #main .city-text {
-    margin: 0 5% 5em 5%;
+    margin: 0 5% 2.5em 5%;
 }
 
 }

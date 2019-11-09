@@ -1,5 +1,7 @@
-headline: Short headline here
-subhed: A bit longer subhed here and here. Maybe a couple of sentences could go here.
+headline: A Crowded Field
+subhed_1: There are more than 100 pro sports stadiums in North America
+subhed_2: 5 cities have 3 stadiums within about a mile of each other
+subhed_3: St. Louis will soon be among them (again)
 byline: Brent Jones | St. Louis Public Radio
 pubdate: Nov. 6, 2019
 
@@ -11,18 +13,18 @@ title: Editing
 name: Brian Heffernan
 
 title: Copyediting
-name: MacK Korris
+name: MacK Korris, Bob Cronin
 []
 
 [graphic_steps]
 step: 1
-text: These are St. Louis' stadiums. From left, the new MLS stadium, Enterprise Center and Busch Stadium.
+text: These are St. Louis' stadiums. From left, the planned MLS stadium, Enterprise Center and Busch Stadium.
 
 step: 2
-text: If you draw the smallest circle possible to fit all three inside, then measure the diameter of that circle, you get 1.13 miles. In this case, that's the distance between Busch Stadium and the new MLS stadium.
+text: If you draw the smallest circle possible to fit all three inside, then measure the diameter of that circle, you get 1.13 miles. That's the distance between Busch Stadium and the planned MLS stadium.
 
 step: 3
-text: The closest set of three stadiums we found were in Philadelphia, where three stadiums hosting four teams were less than a half-mile apart.
+text: The closest set of three stadiums is in Philadelphia, where three stadiums — Wells Fargo Center, Lincoln Financial Field and Citizens Bank Park — are less than a half-mile apart.
 
 step: 4
 text: Kansas City was second-to-last on the list, with three stadiums more than 19 miles apart.
@@ -30,17 +32,17 @@ text: Kansas City was second-to-last on the list, with three stadiums more than 
 
 
 [+hed]
-St. Louis’ new Major League Soccer stadium is planned for land just northwest of Union Station, across Market Street. When it’s complete in 2022, St. Louis will have three major league stadiums[a] — Busch Stadium, Enterprise Center, and the MLS stadium — all in a row, within about a mile of each other. 
+St. Louis’ new Major League Soccer stadium is planned for land just northwest of Union Station, across Market Street. When it’s complete in 2022, St. Louis will once again have three major league stadiums — Busch Stadium, Enterprise Center and the MLS stadium — all in a row, within about a mile of each other. 
 
 So we wondered, how common is that? Do other cities have “stadium districts”? Or, is it more likely that pro sports stadiums are spread apart?
 
-To find out, we looked at the 152 teams across the five major professional sports leagues in North America — MLB, MLS, NBA, NFL and NHL. These teams play across 50 metro areas. About half of those [b]have at least three pro sports stadiums currently built or at least planned to be constructed soon. Then, we found the three stadiums in each metro area that are closest together.[c]
+To find out, we looked at the 152 teams across the five major professional sports leagues in North America — MLB, MLS, NBA, NFL and NHL. These teams play across 50 metro areas. About half of those metros have at least three pro sports stadiums currently built or at least planned to be constructed soon. Then, we found which three stadiums in each metro area are closest together.
 
-The distances vary considerably — Philadelphia and Detroit both have three stadiums within less than a half mile of each other. Compare that to Kansas City, where nearly[d] 20 miles separates Sporting KC’s MLS stadium in Kansas from the two-stadium complex in the city’s eastern suburbs where the baseball and football teams play.
+The distances between them vary considerably. Philadelphia and Detroit both have three stadiums within less than a half-mile of each other. Compare that to Kansas City, where nearly 20 miles separates Sporting KC’s MLS stadium in Kansas from the two-stadium complex on the eastern edge of the city where the baseball and football teams play.
 
-With the completion of the new MLS stadium, St. Louis will rank sixth on the list. Busch Stadium and the proposed MLS stadium are about 1.1 miles apart, with Enterprise Center almost exactly in the middle.[e]
+With the completion of the new MLS stadium, St. Louis will rejoin the list, in sixth position. Busch Stadium and the proposed MLS stadium are about 1.1 miles apart, with Enterprise Center almost exactly in the middle. If the St. Louis Rams were still playing in the Dome at America’s Center, the city would be fourth.
 
-[Hear Wayne Pratt interview Washington University Sports Business Program Director Patrick Riche about the logic behind locating sports stadiums near each other](https://news.stlpublicradio.org/post/pro-soccer-hockey-baseball-all-within-mile-what-it-means-downtown-st-louis)
+[Hear Wayne Pratt interview Washington University Sports Business Program Director Patrick Rishe about the logic behind locating sports stadiums near each other](https://news.stlpublicradio.org/post/pro-soccer-hockey-baseball-all-within-mile-what-it-means-downtown-st-louis)
 
 Here’s what the landscape looks like:
 
@@ -72,11 +74,11 @@ Wells Fargo Center — 76ers (NBA), Flyers (NHL)
 
 []
 
-text: Wells Fargo Center opened in 1996, Lincoln Financial Field opened in 2003 and Citizens Bank Park opened in 2004. Philadelphia is also home to an MLS team. The Philadelphia Union play about 12 miles down the Delaware River from the other three stadiums.
+text: Wells Fargo Center opened in 1996, Lincoln Financial Field opened in 2003, and Citizens Bank Park opened in 2004. Philadelphia is also home to an MLS team. The Philadelphia Union play about 12 miles down the Delaware River from the other three stadiums.
 
 How close are they in St. Louis terms?
 
-close: The legs of the Arch couldn’t fit between Lincoln Financial Field and Wells Fargo Center.[f]
+close: The legs of the Arch couldn’t fit between Lincoln Financial Field and Wells Fargo Center.
 
 image_credit: Google; Image Landsat/Copernicus; Data SIO, NOAA, U.S. Navy, GEBCO
 ________________
@@ -96,7 +98,7 @@ Little Caesars Arena — Pistons (NBA), Red Wings (NHL)
 
 []
 
-text: “In terms of a recent example of a city that has made tremendous strides, Detroit has made huge strides in making these strategic decisions,” said Patrick Riche, director of Washington University’s sports business program. “Not just their sports stadiums, but their renovated Fox Theatre … and then Wayne State University…, building that right next to the brand new Little Caesars Arena, you have all of these buildings literally within a half mile of each other.”
+text: “In terms of a recent example of a city that has made tremendous strides, Detroit has made huge strides in making these strategic decisions,” said Patrick Rishe, director of Washington University’s sports business program. “Not just their sports stadiums, but their renovated Fox Theatre … and then Wayne State University … building that right next to the brand-new Little Caesars Arena, you have all of these buildings literally within a half-mile of each other.”
 
 How close are they in St. Louis terms?
 
@@ -116,11 +118,11 @@ Toyota Center — Rockets (NBA)
 
 []
 
-text: Houston rounds out the cities with three stadiums within less than a mile. These stadiums, split by a highway[g], are just southeast of the city center. Houston’s NFL team, the Texans, play at NRG Stadium, nearly 6 miles southwest of the other three.
+text: Houston rounds out the cities with three stadiums within less than a mile. These stadiums, split by a highway, are just southeast of the city center. Houston’s NFL team, the Texans, plays at NRG Stadium, nearly 6 miles southwest of the other three.
 
 How close are they in St. Louis terms?
 
-close: If you placed Houston’s Toyota Center at the south end of the Arch grounds, then BBVA Stadium would be at the north end, and Minute Maid Park would be at the corner of Olive Street and Broadway.
+close: If you placed Houston’s Toyota Center at the south end of the Arch grounds, then BBVA Stadium would be at the north end and Minute Maid Park would be at the corner of Olive Street and Broadway.
 
 image_credit: Google; Image Landsat/Copernicus
 []
@@ -162,7 +164,7 @@ U.S. Bank Stadium — Vikings (NFL)
 
 []
 
-text: Minneapolis-St. Paul is home to five major league teams. The three closest stadiums are in Minneapolis, and are all along one street. The Wild, Minnesota’s NHL team,[h] play about 8 miles away  in downtown St. Paul. Minnesota United FC, the MLS team, play between the two downtowns of the Twin Cities.[i]
+text: Minneapolis-St. Paul is home to five major league teams. The three closest stadiums are in Minneapolis, and are all along one street. The NHL’s Minnesota Wild, play about 8 miles away  in downtown St. Paul. Minnesota United FC, the MLS team, play between the two downtowns of the Twin Cities.
 
 How close are they in St. Louis terms?
 
@@ -183,7 +185,7 @@ Enterprise Center — Blues (NHL)
 
 []
 
-text: The proposed MLS Stadium will be along Market Street just northwest of Union Station. Clark Avenue runs through Ballpark Village, south of Enterprise Center, and near the MLS stadium and team training facility campus, though it’s interrupted by Union Station.
+text: The proposed MLS Stadium will be along Market Street just northwest of Union Station. Clark Avenue runs through Ballpark Village, south of Enterprise Center, and near the MLS stadium and team training-facility campus, though it’s interrupted by Union Station.
 
 image_credit: Google; Image Landsat/Copernicus; Gray Buildings copyright 2008 Sanborn
 ________________
@@ -200,7 +202,7 @@ Paul Brown Stadium — Bengals (NFL)
 
 []
 
-text: Cincinnati will join the ranks of three-stadium cities when its MLS stadium is completed in 2021. FC Cincinnati was announced in 2018 and will began play in 2019. Cincinnati’s MLB and NFL stadiums are along the Ohio River. The soccer stadium is being built about a mile to the northwest.
+text: Cincinnati will join the ranks of three-stadium cities when its MLS stadium is completed in 2021. FC Cincinnati was announced in 2018 and will begin play in 2019. Cincinnati’s MLB and NFL stadiums are along the Ohio River. The soccer stadium is being built about a mile to the northwest.
 
 How close are they in St. Louis terms?
 
@@ -250,7 +252,7 @@ ________________
 hed: Between 2 and 5 miles
 [.cities]
 slug: dc
-name: 10. Washington D.C. — 2.10 miles
+name: 10. Washington, D.C. — 2.10 miles
 
 Three closest stadiums:
 
@@ -262,7 +264,7 @@ Capital One Arena — Wizards (NBA), Capitals (NHL)
 
 []
 
-text: Washington has five major league teams, four of which play in the three closest stadiums. The Nationals, D.C. United, Wizards and Capitals all play within just over 2 miles of each other, and each is within about a mile and a half of the U.S. Capitol Building. FedEx Field, home of the Washington Redskins, is nearly eight miles east of Capitol Hill in Maryland.[j]
+text: Washington has five major league teams, four of which play in the three closest stadiums. The Nationals, D.C. United, Wizards and Capitals all play within just over 2 miles of each other, and each is within about a mile and a half of the U.S. Capitol. FedEx Field, home of the Washington Redskins, is nearly 8 miles east of Capitol Hill in Maryland.
 
 How close are they in St. Louis terms?
 
@@ -305,11 +307,11 @@ Bridgestone Arena — Predators (NHL)
 
 []
 
-text: Like Cincinnati, Nashville doesn’t have three stadiums yet. Nashville SC will begin play in 2020[k] in a new stadium to be built at the Nashville Fairgrounds. Bridgestone Arena and Nissan Stadium are built in the city center, though separated by the Cumberland River.
+text: Like Cincinnati, Nashville doesn’t have three stadiums yet. Nashville SC will begin play in 2020 in a new stadium to be built at the Nashville Fairgrounds. Bridgestone Arena and Nissan Stadium are built in the city center, though separated by the Cumberland River.
 
 How close are they in St. Louis terms?
 
-close: 2.3 miles is about the distance along I-64/40 between Busch Stadium and Grand Blvd.
+close: 2.3 miles is about the distance along I-64/40 between Busch Stadium and Grand Boulevard.
 
 image_credit: Google; Image Landsat/Copernicus
 ________________
@@ -325,11 +327,11 @@ CenturyLink Field — Sounders FC (MLS), Seahawks (NFL)
 Seattle Center Arena (planned) — Unnamed NHL team
 []
 
-text: Seattle currently has three active major league teams playing in two stadiums. (The Seahawks and Sounders FC share CenturyLink Field.) But the city still makes our list thanks to the NHL, which has awarded Seattle an expansion team for its 2021-22 season. The team will play in the revamped Seattle Center Arena, the former home of the NBA’s Supersonics, near the Space Needle and a few miles northwest of downtown. T-Mobile Park and CenturyLink Field are on the south side of downtown.[l]
+text: Seattle currently has three active major league teams playing in two stadiums. (The Seahawks and Sounders FC share CenturyLink Field.) But the city still makes our list thanks to the NHL, which has awarded Seattle an expansion team for its 2021-22 season. The team will play in the revamped Seattle Center Arena, the former home of the NBA’s Supersonics, near the Space Needle and a few miles northwest of downtown. T-Mobile Park and CenturyLink Field are on the south side of downtown.
 
 How close are they in St. Louis terms?
 
-close: T-Mobile Park and CenturyLink Field are about as close as the Arch’s legs[m]. Seattle’s new NHL arena will be about as far away from those stadiums as it is from the I-64/40 and I-44/55 interchange south to the Anheuser-Busch Brewery.[n]
+close: T-Mobile Park and CenturyLink Field are about as close as the Arch’s legs. Seattle’s new NHL arena will be about as far away from those stadiums as it is from the I-64/40 and I-44/55 interchange south to the Anheuser-Busch Brewery.
 
 image_credit: Google; Image Landsat/Copernicus; Data SIO, NOAA, U.S. Navy, NGA, GEBCO
 ________________
@@ -346,7 +348,7 @@ Soldier Field — Bears (NFL)
 
 []
 
-text: Chicago has some old sports stadiums. Soldier Field, opened in 1924, is the second oldest of these 72 stadiums. [o]Guaranteed Rate Field is the ninth oldest and United Center is the 11th oldest. Wrigley Field, not appearing on the list (it’s nearly five miles north of the United Center) is the second oldest out of the 103 currently-built stadiums we [p]analyzed for this story.
+text: Chicago has some old sports stadiums. Soldier Field, opened in 1924, is the second oldest of these 72 stadiums. Guaranteed Rate Field is the ninth oldest and United Center is the 11th oldest. Wrigley Field, not appearing on the list (it’s nearly five miles north of the United Center) is the second oldest out of the 103 currently built stadiums analyzed for this story.
 
 How close are they in St. Louis terms?
 
@@ -367,11 +369,11 @@ American Airlines Arena — Heat (NBA)
 
 []
 
-text: American Airlines Arena is on the waterfront, Marlins Park is a couple miles inland, and soccer star David Beckham is planning a new MLS stadium nearby for a team to begin play in 2020. The location has been changed a few times, but it’s currently slated to replace a city-owned country club near the Miami Airport.
+text: American Airlines Arena is on the waterfront, Marlins Park is a couple of miles inland, and soccer star David Beckham is planning a new MLS stadium nearby for a team to begin play in 2020. The location has been changed a few times, but it’s currently slated to replace a city-owned country club near the Miami Airport.
 
 How close are they in St. Louis terms?
 
-close: The distance between Miami’s stadiums will be a little farther than the distance between Forest Park and the riverfront.
+close: The distance between Miami’s stadiums will be a little more than the distance between Forest Park and the riverfront.
 
 image_credit: Google; Data SIO, NOAA, U.S. Navy, NGA, GEBCO
 ________________
@@ -388,7 +390,7 @@ Staples Center — Clippers (NBA), Lakers (NBA), Kings (NHL)
 
 []
 
-text: No, we don’t need to talk about the Rams. The Staples Center, near downtown LA, is the only venue on the list to host three teams. Dodger Stadium is to the northeast. Opened in 1962, it’s the third oldest venue on this list. And Banc of California Stadium, opened in 2018 is southwest of downtown. It’s next door to the Coliseum, the temporary home of you-know-who.
+text: No, we don’t need to talk about the Rams. Staples Center, in downtown LA, is the only venue on the list to host three teams. Dodger Stadium is to the northeast. Opened in 1962, it’s the third oldest venue on this list. And Banc of California Stadium, opened in 2018, is southwest of downtown. It’s next door to the Coliseum, the temporary home of you-know-who.
 
 How close are they in St. Louis terms?
 
@@ -400,7 +402,7 @@ ________________
 hed: More than five miles
 [.cities]
 slug: sf
-name: 17. San Francisco-Oakland[q] — 6.01 miles
+name: 17. San Francisco-Oakland — 6.01 miles
 
 Three closest stadiums:
 
@@ -412,7 +414,7 @@ Chase Center — Golden State Warriors (NBA)
 
 []
 
-text: San Francisco is home to the newest currently-open venue on the list: Chase Center opened on Sept. 6 this year. Oracle Park, home of the Giants, and the new Chase Center are within less than a mile of each other along the Bay. Across the Bay Bridge, the Oakland Athletics plan to build a new ballpark along the waterfront near downtown Oakland.
+text: San Francisco is home to the newest currently open venue on the list: Chase Center opened on Sept. 6 this year. Oracle Park, home of the Giants, and the new Chase Center are within less than a mile of each other along the Bay. Across the Bay Bridge, the Oakland Athletics plan to build a new ballpark along the waterfront near downtown Oakland.
 
 How close are they in St. Louis terms?
 
@@ -449,16 +451,16 @@ Three closest stadiums:
 [.+stadiums]
 
 SunTrust Park — Braves (MLB)
-Mercedes-Benz Stadium — Atlanta United FC (MLS)Falcons (NFL)
+Mercedes-Benz Stadium — Atlanta United FC (MLS) Falcons (NFL)
 State Farm Arena — Hawks (NBA)
 
 []
 
-text: Prior to the Atlanta Braves leaving Turner Field in 2017 for a shiny new stadium in the suburbs, Atlanta’s three stadiums were within a couple miles of each other in the city center. Now the Braves play about 10 miles northeast.[r]
+text: Prior to the Atlanta Braves leaving Turner Field in 2017 for a shiny new stadium in the suburbs, Atlanta’s three stadiums were within a couple miles of each other in the city center. Now the Braves play about 10 miles northeast.
 
 How close are they in St. Louis terms?
 
-close: The 10.1 miles between Atlanta’s stadiums is about the same distance as starting from Busch Stadium and traveling west on I-64/40 to halfway between McKnight and Clayton Road.
+close: The 10.1 miles between Atlanta’s stadiums is about the same distance as starting from Busch Stadium and traveling west on I-64/40 to halfway between McKnight and Clayton Road in Ladue.
 
 image_credit: Google; Image Landsat/Copernicus
 ________________
@@ -475,7 +477,7 @@ Gila River Arena — Coyotes (NHL)
 
 []
 
-text: Phoenix, New York and Nashville are the only three cities where an MLB stadium isn’t included in their closest three stadiums[s] (Nashville doesn’t have an MLB team)[t]. But in Phoenix, it’s a tossup: State Farm Stadium and Gila River Arena are next to each other to the northwest of downtown, and Talking Stick Resort Arena and Chase Field are nearly as close to each other, in downtown.
+text: Phoenix, New York and Nashville are the only three cities where an MLB stadium isn’t included in their closest three stadiums (Nashville doesn’t have an MLB team). But in Phoenix, it’s a toss-up: State Farm Stadium and Gila River Arena are next to each other to the northwest of downtown, and Talking Stick Resort Arena and Chase Field are nearly as close to each other, in downtown.
 
 How close are they in St. Louis terms?
 
@@ -496,7 +498,7 @@ AT&T Stadium — Cowboys (NFL)
 
 []
 
-text: American Airlines Center is in Dallas, AT&T Stadium is in Arlington. It’s a straight shot down I-30, but still nearly 17 miles. The Rangers are building a new ballpark next to their current one (both are within about a half-mile of AT&T stadium. Toyota Stadium, home of F.C. Dallas (MLS), is about 25 miles north of the city center.
+text: American Airlines Center is in Dallas; AT&T Stadium is in Arlington. It’s a straight shot down I-30, but still nearly 17 miles. The Rangers are building a new ballpark next to their current one (both are within about a half-mile of AT&T Stadium). Toyota Stadium, home of F.C. Dallas (MLS), is about 25 miles north of the city center.
 
 How close are they in St. Louis terms?
 
@@ -542,7 +544,7 @@ text: You might be surprised to see Kansas City so far down on the list if you k
 
 How close are they in St. Louis terms?
 
-close: The 19 miles between Kansas City’s stadiums is about the same distance as starting from Busch Stadium and traveling west on I-64/40 nearly to Chesterfield Mall[u].
+close: The 19 miles between Kansas City’s stadiums is about the same distance as starting from Busch Stadium and traveling west on I-64/40 nearly to Chesterfield Mall.
 
 image_credit: Google; Image Landsat/Copernicus
 ________________
@@ -559,40 +561,10 @@ TD Garden — Celtics (NBA), Bruins (NHL)
 
 []
 
-text: Fenway Park is the oldest venue on the list, opened in 1912. Along with LA, Boston is the only other city with five teams playing in its three closest stadiums, and it’s the only city with more than one of the three venues hosting multiple teams. Fenway Park and TD Garden are only a couple miles apart. But Gillette Stadium is in Foxborough, Massachusetts, halfway to Providence, Rhode Island.
+text: Fenway Park is the oldest venue on the list, opened in 1912. Along with LA, Boston is the only city with five teams playing in its three closest stadiums, and it’s the only city with more than one of the three venues hosting multiple teams. Fenway Park and TD Garden are only a couple of miles apart. But Gillette Stadium is in Foxborough, Massachusetts, halfway to Providence, Rhode Island.
 
 How close are they in St. Louis terms?
 
 close: The 21.7 miles between Boston’s stadiums is about the same distance as starting from Busch Stadium and traveling west on I-64/40 to the Chesterfield Valley. It’s also about the same as the straight-line distance between the Arch and Valmeyer, Castlewood Park and Ellisville.
 
 image_credit: Google; Image Landsat/Copernicus; Data SIO, NOAA, U.S. Navy, NGA, GEBCO; Data LDEO-Columbia, NSF, NOAA
-[a]optional hyphenation here on "major-league stadiums," I'd say
-[b]perhaps add in "areas" just so it's clear the "those" isn't in reference to teams, but metro areas
-[c]or "which three stadiums in each metro area are closest together."
-[d]I see more than 20 miles, from 22-24; though that could be interstate and you could mean pure distance?
-[e]I would say Enterprise is actually much closer to the MLS site than the middle of the MLS site and Busch. The way that the roads are makes it about half a mile, but the distance itself can't be more than .2-.3 miles
-[f]awesome
-[g]classically Texas
-[h]or simply "The NHL's Minnesota Wild play about 8 miles..."
-[i]replaced: 
-The Wild, Minnesota’s NHL team, play in St. Paul, about 8 miles away. Minnesota United FC, the MLS team, play between the Twin Cities.
-
-I replaced it because Minneapolis and St. Paul share city borders. It's just that their downtowns are separated.
-[j]Tweaked this to say its in Maryland and to name the team. I found the wording confusing without mentioning who plays at the stadium.
-[k]tweaked sentence to add when the team will start playing in the MLS
-[l]replaced: 
-Initially Seattle didn’t make the list although it currently has three major league teams. The Sounders and Seahawks share a field. But the NHL has awarded the city a hockey team, and they’re planning an arena. T-Mobile Park and CenturyLink Field are next to each other, while the NHL arena is planned for a few miles northwest, near the Space Needle.
-
-Made the change in an attempt to clarify the three-teams-but-two-stadiums language. I also thought the Supersonics detail was interesting.
-[m]Replaced: are within an Arch-length
-[n]I found this comparison hard to visualize — we've been doing a lot of I-64/40 comparisons. Are there any along that route that compare nicely?
-[o]but yet half of the stadium, or more, is little more than a decade old. an example of facadism, really
-[p]could cut
-[q]Adding Oakland into this, a la, Minneapolis-St. Paul
-[r]Replaced:
-
-Prior to Atlanta’s baseball team leaving for the suburbs in 2017, Atlanta’s three stadiums were within a couple miles of each other. Now SunTrust Park is about ten miles northeast.
-[s]slightly reworded
-[t]the Nashville Sounds, though, represent!
-[u]replaced:
-Route 340

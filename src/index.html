@@ -23,7 +23,9 @@
     <div class="header">
         <div id="headlines">
             <h1 id="headline"><%= grunt.data.archieml.Stadiums_text.headline %></h1>
-            <h2 id="subhed"><%= grunt.data.archieml.Stadiums_text.subhed %></h1>
+            <h2 class="subhed" id="subhed1"><%= grunt.data.archieml.Stadiums_text.subhed_1 %></h2>
+            <h2 class="subhed" id="subhed2"><%= grunt.data.archieml.Stadiums_text.subhed_2 %></h2>
+            <h2 class="subhed" id="subhed3"><%= grunt.data.archieml.Stadiums_text.subhed_3 %></h2>
               <p id="byline"><%= grunt.data.archieml.Stadiums_text.byline %></p>
               <p id="pubdate"><%= grunt.data.archieml.Stadiums_text.pubdate %></p>
             </div>
@@ -67,11 +69,12 @@
 
 
     <div class="city">
+        <h3 class="city-name"><%= city.name %></h3>
         <%= t.include("partials/_" + city.slug + ".html") %>
 
       <p class="credit"><%= city.image_credit %></p>
       
-      <div class="city-text"><h3><%= city.name %></h3>
+      <div class="city-text">
 
       <p><%= grunt.data.archieml.Stadiums_text.closest_stadiums_text %></p>
       <ul class="stadiums">
