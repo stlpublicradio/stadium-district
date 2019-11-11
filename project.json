@@ -22,6 +22,6 @@
   "image": "assets/images/mls_render.png",
   "sheets": [],
   "docs": ["1PTkp6w911QWyXVNg25qhdAQKPuLkstzP3mSLOuEg82o"],
-  "embedded": true,
-  "production": false
+  "embedded": false,
+  "production": true
 }
