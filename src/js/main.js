@@ -97,7 +97,7 @@ function handleStepEnter(response) {
     var stl_circle = turf.circle(circle_center, 0.9127259383682821);
 
     map.fitBounds(turf.bbox(stl_circle), {
-      padding: 20,
+      padding: 100,
       duration: fly_duration
     });
 
@@ -120,7 +120,7 @@ function handleStepEnter(response) {
     var phi_circle = turf.circle(circle_center, 0.35362);
 
     map.fitBounds(turf.bbox(phi_circle), {
-      padding: 20,
+      padding: 100,
       duration: fly_duration
     });
 
@@ -152,7 +152,7 @@ function handleStepEnter(response) {
     var kc_circle = turf.circle(circle_center, 15.348);
 
     map.fitBounds(turf.bbox(kc_circle), {
-      padding: 20,
+      padding: 100,
       duration: fly_duration
     });
 

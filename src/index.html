@@ -30,7 +30,7 @@
               <p id="pubdate"><%= grunt.data.archieml.Stadiums_text.pubdate %></p>
             </div>
             <div id="intro">
-              <% grunt.data.archieml.Stadiums_text.hed.forEach(p => { console.log(p.value)   %>
+              <% grunt.data.archieml.Stadiums_text.hed.forEach(p => {    %>
                 <% if (p.type == 'wayne') { %>
                   <div id="wayne">
                 <% } %>
@@ -121,6 +121,7 @@
   <script src="app.js" async></script>
   </main>
   <%= t.include("partials/_footer.html") %>
+  <%= t.include("partials/_analytics.html") %>
 </body>
 
 </html>
