@@ -30,8 +30,14 @@
               <p id="pubdate"><%= grunt.data.archieml.Stadiums_text.pubdate %></p>
             </div>
             <div id="intro">
-              <% grunt.data.archieml.Stadiums_text.hed.forEach(p => {  %>
-              <p><%= t.renderMarkdown(p.value) %></p>
+              <% grunt.data.archieml.Stadiums_text.hed.forEach(p => { console.log(p.value)   %>
+                <% if (p.type == 'wayne') { %>
+                  <div id="wayne">
+                <% } %>
+              <%= t.renderMarkdown(p.value) %>
+               <% if (p.type == 'wayne') { %>
+               </div>
+              <% } %>
               <% }) %>
             </div>  </div>
     <section id='scrolly'>
@@ -101,6 +107,9 @@
   </div>
   <div id="bottom-map-container">
   <div id="bottom-map"></div>
+</div>
+<div id="how">
+  <%= t.renderMarkdown(grunt.data.archieml.Stadiums_text.read_more) %>
 </div>
   <div class="credits">
       <% grunt.data.archieml.Stadiums_text.credits.forEach(section => { %>

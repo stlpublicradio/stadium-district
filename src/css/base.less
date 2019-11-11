@@ -34,7 +34,7 @@ svg {
 
 #headlines {
   text-align: center;
-  margin: 0 10% 5em 10%;
+  margin: 0 10% 3em 10%;
 
   #headline {
     .titillium-header();
@@ -51,6 +51,10 @@ svg {
     font-size: 1.5rem;
     color: #666;
     margin: 0 0 .5em 0;
+
+    &#subhed3 {
+      margin:0 0 3em 0;
+    }
   }
 
   p {
@@ -60,6 +64,14 @@ svg {
     margin: 0;
 
   }
+
+}
+
+#how-page {
+  #headline {
+    font-size: 2rem;
+    margin: 30px 0 0 0;
+  }
 }
 
 #barchart {
@@ -67,11 +79,26 @@ svg {
 }
 
 #intro {
-  margin: 0 30%;
+  p {
+  margin: 10px 30%;
   font-size: 1.2rem;
   line-height: 2rem;
   text-align: left;
+  }
   
+}
+
+#wayne, #go-back, #how {
+  margin: 20px 5%;
+  padding: 10px;
+  background-color: #dfdfdf;
+  border: 1px solid #666;
+
+  p {
+    text-align: center;
+    margin: 0;
+    
+  }
 }
 
 #main {
@@ -222,7 +249,9 @@ div.header {
   }
   
   #intro {
-    margin: 0 5%;
+    p {
+    margin: 10px 5%;
+    }
     
   }
 

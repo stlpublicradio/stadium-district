@@ -526,7 +526,6 @@ function createMap() {
     stadiums = request.response;
     // for (i=0,i<stadiums.length;i++;) {
     // }
-    console.log(stadiums);
   };
 }
 

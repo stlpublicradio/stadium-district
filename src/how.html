@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <%= t.include("partials/_head.html", grunt.data.json) %>
+  <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+<!-- <script src="https://unpkg.com/scrollama"></script> -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="how-page">
+    <%= t.include("partials/_header.html") %>
+    
+    <div class="header">
+        <div id="headlines">
+            <h1 id="headline"><%= grunt.data.archieml.Stadiums_text.headline %>: How we made it</h1>
+              <p id="byline"><%= grunt.data.archieml.Stadiums_text.byline %></p>
+              <p id="pubdate"><%= grunt.data.archieml.Stadiums_text.pubdate %></p>
+            </div>
+            <div id="intro">
+              <% grunt.data.archieml.Stadiums_text.how.forEach(p => { %>
+                <% if (p.type == 'go_back') { %>
+                  <div id="go-back">
+                <% } %>
+              <%= t.renderMarkdown(p.value) %>
+               <% if (p.type == 'wayne') { %>
+               </div>
+              <% } %>              <% }) %>
+            </div>  
+          </div>
+          <div id="bottom-map-container">
+            <div id="bottom-map"></div>
+          </div>
+    
+  <div class="credits">
+      <% grunt.data.archieml.Stadiums_text.credits.forEach(section => { %>
+        <p><%= section.title %> &mdash; <%= section.name %></p>
+        <% }) %>
+  </div>
+
+
+  <script src="how.js" async></script>
+  </main>
+  <%= t.include("partials/_footer.html") %>
+</body>
+
+</html>
