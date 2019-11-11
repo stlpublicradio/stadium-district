@@ -203,9 +203,15 @@ function createBottomMap() {
     pitch: 0
   });
 
+  bottom_map.setMaxBounds([
+    [-91.2544739246, 37.8312261887],
+    [-89.176684618, 39.4210941085]
+  ]);
+  bottom_map.addControl(new mapboxgl.NavigationControl());
+
   bottom_map.on("load", function() {
     cityColors = {
-      STL: "#cc203b",
+      "St. Louis": "#cc203b",
       Atlanta: "#666",
       Boston: "#cc0000",
       Chicago: "#006c8e",
@@ -216,19 +222,19 @@ function createBottomMap() {
       Detroit: "#358fb3",
       Houston: "#f6883e",
       "Kansas City": "#358fb3",
-      LA: "#358fb3",
-      MSP: "#571751",
+      "Los Angeles": "#358fb3",
+      "Minneapolis-St. Paul": "#571751",
       Miami: "#70a99a",
-      NYC: "#cc203b",
+      "New York City": "#cc203b",
       Nashville: "#f1bb4f",
       Philadelphia: "#449970",
       Phoenix: "#70a99a",
       Pittsburgh: "#f1bb4f",
-      SF: "#31716e",
+      "San Francisco": "#31716e",
       Seattle: "#31716e",
       "Tampa Bay": "#f6883e",
       Toronto: "#55b7d9",
-      "Washington DC": "#cc203b"
+      "Washington D.C.": "#cc203b"
     };
     cities = Object.keys(stadiums);
     for (i = 0; i < cities.length; i++) {
@@ -258,6 +264,10 @@ function createBottomMap() {
           "text-anchor": "top",
           "text-size": 10,
           visibility: "none"
+        },
+        paint: {
+          "text-halo-color": "rgba(230, 230, 230, .8)",
+          "text-halo-width": 1
         }
       });
     }
@@ -372,7 +382,7 @@ function createMap() {
       type: "circle",
       source: {
         type: "geojson",
-        data: stadiums["STL"]["geojson"]
+        data: stadiums["St. Louis"]["geojson"]
       },
       paint: {
         "circle-radius": 10,

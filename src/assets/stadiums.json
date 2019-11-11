@@ -187,7 +187,7 @@
    ]
   }
  },
- "MSP": {
+ "Minneapolis-St. Paul": {
   "radius": 906.8376418739011,
   "geojson": {
    "type": "FeatureCollection",
@@ -234,7 +234,7 @@
    ]
   }
  },
- "STL": {
+ "St. Louis": {
   "radius": 912.7259383686444,
   "geojson": {
    "type": "FeatureCollection",
@@ -422,7 +422,7 @@
    ]
   }
  },
- "Washington DC": {
+ "Washington D.C.": {
   "radius": 1691.531083025919,
   "geojson": {
    "type": "FeatureCollection",
@@ -704,7 +704,7 @@
    ]
   }
  },
- "LA": {
+ "Los Angeles": {
   "radius": 3950.8786720807348,
   "geojson": {
    "type": "FeatureCollection",
@@ -751,7 +751,7 @@
    ]
   }
  },
- "SF": {
+ "San Francisco": {
   "radius": 4836.97668075891,
   "geojson": {
    "type": "FeatureCollection",
@@ -798,7 +798,7 @@
    ]
   }
  },
- "NYC": {
+ "New York City": {
   "radius": 6028.650156241591,
   "geojson": {
    "type": "FeatureCollection",
