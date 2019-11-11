@@ -1,0 +1,1130 @@
+{
+ "Philadelphia": {
+  "radius": 353.6290203771776,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Citizens Bank Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19925112880384,
+       38.6291668360406
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Wells Fargo Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20470639952225,
+       38.624444614040414
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Lincoln Financial Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20034217675175,
+       38.62416683509773
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Detroit": {
+  "radius": 389.8241506127745,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Comerica Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20044866029605,
+       38.62542234880335
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Little Caesars Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20639885374328,
+       38.62735569307584
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Ford Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19755766396167,
+       38.62625569308211
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Houston": {
+  "radius": 501.095486355813,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Minute Maid Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19977344561426,
+       38.6309810772833
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "BBVA Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19626674460528,
+       38.626236599650014
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Toyota Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20715737593588,
+       38.624836606689286
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Cleveland": {
+  "radius": 821.6104728310775,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Progressive Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19518869588455,
+       38.62166666456081
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Rocket Mortgage FieldHouse"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19785170694854,
+       38.622222206290914
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "FirstEnergy Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20876992965532,
+       38.63194444256681
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "MSP": {
+  "radius": 906.8376418739011,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Target Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.2111395578064,
+       38.63068889466417
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Target Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.2091277812944,
+       38.628466303682906
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "U.S. Bank Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19281913333623,
+       38.62292189464253
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "STL": {
+  "radius": 912.7259383686444,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Busch Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19305600000001,
+       38.6225
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "MLS Stadium (planned)"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.21090700000002,
+       38.631111
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Enterprise Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20250000000004,
+       38.62666699999998
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Cincinnati": {
+  "radius": 1023.3978081341911,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Great American Ball Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19425531880495,
+       38.61986112565914
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "West End Stadium (planned)"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20970671641459,
+       38.633750013664056
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Paul Brown Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20356480168039,
+       38.617805565474484
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Pittsburgh": {
+  "radius": 1199.7820261855295,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "PNC Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20522671215451,
+       38.63069411113055
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Heinz Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.21496840172597,
+       38.630416378040685
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "PPG Paints Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.1889908028785,
+       38.623193712029305
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Denver": {
+  "radius": 1297.8903652508932,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Coors Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.1892659068049,
+       38.63291617496487
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Pepsi Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20238779168648,
+       38.625416146901635
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Empower Field at Mile High"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.21468964325175,
+       38.620693951955126
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Washington DC": {
+  "radius": 1691.531083025919,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Nationals Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19298373270328,
+       38.6163893867407
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Audi Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19768880517847,
+       38.611944384290986
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Capital One Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20626926107468,
+       38.64166693929112
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Toronto": {
+  "radius": 1695.6850053598666,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Rogers Centre"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19297123229262,
+       38.63013732197067
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "BMO Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.22024802247967,
+       38.62152664184257
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Scotiabank Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.18370762187465,
+       38.632081974912445
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Nashville": {
+  "radius": 1847.8713511927363,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Nashville Fairgrounds Stadium (Planned)"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19659968077116,
+       38.61068961606897
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Nissan Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20736042129317,
+       38.64292161605997
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Bridgestone Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.21482506541042,
+       38.63569956642098
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Seattle": {
+  "radius": 1883.228536178209,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "T-Mobile Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19270335519866,
+       38.611499826461724
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "CenturyLink Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19198431502036,
+       38.61538873733227
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Seattle Center Arena (planned)"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.21125829195194,
+       38.642110938598584
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Chicago": {
+  "radius": 3266.728007855823,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Guaranteed Rate Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.18278495655579,
+       38.60152629186978
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "United Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.22118626938516,
+       38.652081847153596
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Soldier Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.16636632630741,
+       38.63382675573822
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Miami": {
+  "radius": 3763.1876313575067,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Marlins Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.19562079882053,
+       38.61885552562246
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Miami Freedom Park (planned)"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.24484005133911,
+       38.63141050247594
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "American Airlines Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.1591236348753,
+       38.62218539118097
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "LA": {
+  "radius": 3950.8786720807348,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Dodger Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.17810390077307,
+       38.657108992538994
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Banc of California Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.22583342080264,
+       38.596497882129846
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Staples Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.20697886919879,
+       38.62655379485098
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "SF": {
+  "radius": 4836.97668075891,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Oakland Ballpark (planned)"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.14927738977906,
+       38.640640784869056
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Oracle Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.25634710715326,
+       38.623501762167
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Chase Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.25466041748723,
+       38.612946785131726
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "NYC": {
+  "radius": 6028.650156241591,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Red Bull Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.22864992687352,
+       38.58989258906799
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "MetLife Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.15505977664537,
+       38.66675442559621
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Prudential Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.24884592451554,
+       38.586837423885896
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Atlanta": {
+  "radius": 8154.356034380377,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "SunTrust Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.23777774619896,
+       38.69472405436496
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Mercedes-Benz Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.16624876754156,
+       38.55887845747817
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "State Farm Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.16130803861734,
+       38.56074602004401
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Phoenix": {
+  "radius": 10023.613544406355,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Talking Stick Resort Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.10077038312693,
+       38.58370522989855
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "State Farm Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.30478814285198,
+       38.665371659304775
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Gila River Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.30330639301235,
+       38.6698163247955
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Dallas": {
+  "radius": 13446.153770120949,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Globe Life Field in Arlington (planned)"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.34470293549577,
+       38.604902205227695
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "American Airlines Center"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.04990831447151,
+       38.648094482481646
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "AT&T Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.35397056520407,
+       38.60531672209611
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Tampa Bay": {
+  "radius": 13868.222637609426,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Tropicana Field"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.30966213109247,
+       38.53459322162347
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Raymond James Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.1399256351728,
+       38.74210438872791
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Amalie Arena"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.08175781859057,
+       38.70903356487081
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Kansas City": {
+  "radius": 15348.17555915538,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Kauffman Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.03159145243524,
+       38.59147402823169
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Children's Mercy Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.37252392346079,
+       38.66188514405483
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Arrowhead Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.03490322874853,
+       38.58897394943692
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "Boston": {
+  "radius": 17420.520933626216,
+  "geojson": {
+   "type": "FeatureCollection",
+   "features": [
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Fenway Park"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.13967104816913,
+       38.74439337019126
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "Gillette Stadium"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.29758453432868,
+       38.489090853705044
+      ]
+     }
+    },
+    {
+     "type": "Feature",
+     "properties": {
+      "name": "TD Garden"
+     },
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -90.10601334902981,
+       38.76444922934593
+      ]
+     }
+    }
+   ]
+  }
+ }
+}
